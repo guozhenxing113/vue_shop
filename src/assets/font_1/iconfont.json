@@ -1,0 +1,23 @@
+{
+  "id": "1515980",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6299298",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "16271696",
+      "name": "锁 2",
+      "font_class": "suofuben",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}
