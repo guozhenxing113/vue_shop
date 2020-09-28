@@ -64,11 +64,11 @@ export default {
       // 左侧菜单数据
       menuList: [],
       iconObj: {
-        '125': 'iconfont icon-geren',
-        '103': 'iconfont icon-volumemeasurement',
-        '101': 'iconfont icon-shangpinguanli',
-        '102': 'iconfont icon-ico_yaokuguanli_danjuchaxun',
-        '145': 'iconfont icon-baobiaoguanli',
+        125: 'iconfont icon-geren',
+        103: 'iconfont icon-volumemeasurement',
+        101: 'iconfont icon-shangpinguanli',
+        102: 'iconfont icon-ico_yaokuguanli_danjuchaxun',
+        145: 'iconfont icon-baobiaoguanli',
       },
       // 是否折叠
       isTrue: false,
@@ -92,7 +92,7 @@ export default {
       const { data: res } = await this.$http.get('menus')
       if (res.meta.status !== 200) return this.$message.error(res.meta.msg)
       this.menuList = res.data
-      console.log(res)
+      // console.log(res)
     },
     // 点击按钮切换菜单的折叠与展开
     toggleCollaps() {

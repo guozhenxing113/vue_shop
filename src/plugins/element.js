@@ -28,7 +28,16 @@ import {
     Tag,
     Tree,
     Select,
-    Option
+    Option,
+    Alert,
+    Steps,
+    Step,
+    Tabs,
+    TabPane,
+    Cascader,
+    CheckboxGroup,
+    Checkbox,
+    Upload
 
 
 } from 'element-ui'
@@ -62,5 +71,12 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
-
-
+Vue.use(Alert)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Cascader)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Upload)
