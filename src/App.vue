@@ -38,4 +38,7 @@ html {
   display: flex;
   align-items: center;
 }
+.el-cascader-panel {
+  height: 200px;
+}
 </style>
