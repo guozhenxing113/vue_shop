@@ -37,7 +37,7 @@ import {
     Cascader,
     CheckboxGroup,
     Checkbox,
-    Upload
+    Upload,
 
 
 } from 'element-ui'

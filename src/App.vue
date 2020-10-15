@@ -41,4 +41,7 @@ html {
 .el-cascader-panel {
   height: 200px;
 }
+.el-tag {
+  margin-left: 10px;
+}
 </style>

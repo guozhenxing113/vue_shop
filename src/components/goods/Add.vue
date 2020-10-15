@@ -62,14 +62,8 @@
                 expand-trigger="hover"
                 @change="handleChange"
                 :props="cataProps"
+                :change-on-select="true"
               ></el-cascader>
-              <!-- <el-cascader
-                expand-trigger="hover"
-                :options="cataList"
-                v-model="addForm.goods_cat"
-                @change="handleChange"
-                :props="cataProps"
-              ></el-cascader>-->
             </el-form-item>
           </el-tab-pane>
           <el-tab-pane label="商品参数" name="1">
