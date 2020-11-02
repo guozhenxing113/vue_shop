@@ -284,7 +284,7 @@ export default {
         return this.$message.error('获取商品数据分类失败')
       }
       this.cataList = res.data
-      // console.log(this.cataList)
+      console.log(this.cataList)
     },
     // 级联选中框选中项发生变化，所触发的函数
     handleChange() {
